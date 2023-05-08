@@ -1,0 +1,17 @@
+<suite name="flipkart">
+	<test name="func_testing">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="base.Base" />
+			<class name="func_testing.Flip_test" />
+		</classes>
+	</test>
+	<test name="func1_testing">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="base.Base" />
+			<class name="func_testing.Flip_test" />
+		</classes>
+	</test>
+
+</suite>
